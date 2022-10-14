@@ -51,6 +51,8 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="prev" title="Notebooks with MyST Markdown" href="markdown-notebooks.html" />
@@ -315,6 +317,13 @@ title="Print to PDF"
   <a class="reference internal nav-link" href="#here-s-my-first-section">
    Here’s my first section
   </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#here-s-a-second-section">
+     Here’s a second section
+    </a>
+   </li>
+  </ul>
  </li>
 </ul>
 
@@ -339,6 +348,13 @@ title="Print to PDF"
   <a class="reference internal nav-link" href="#here-s-my-first-section">
    Here’s my first section
   </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#here-s-a-second-section">
+     Here’s a second section
+    </a>
+   </li>
+  </ul>
  </li>
 </ul>
 
@@ -356,6 +372,10 @@ title="Print to PDF"
 <section id="here-s-my-first-section">
 <span id="section-label"></span><h2>Here’s my first section<a class="headerlink" href="#here-s-my-first-section" title="Permalink to this headline">#</a></h2>
 <p>Here is a <a class="reference internal" href="intro.html"><span class="doc std std-doc">reference to the intro</span></a>. Here is a reference to <a class="reference internal" href="#section-label"><span class="std std-ref">Here’s my first section</span></a>.</p>
+<section id="here-s-a-second-section">
+<h3>Here’s a second section<a class="headerlink" href="#here-s-a-second-section" title="Permalink to this headline">#</a></h3>
+<p>Let us try to include some fancy match: <span class="math notranslate nohighlight">\(1 + 1 = 2\)</span>.</p>
+</section>
 </section>
 </section>
 
